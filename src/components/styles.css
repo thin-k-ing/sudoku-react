@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+.App {
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.title {
+    weight: bold;
+    color: #787A91;
+}
+
+.cell {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.board {
+    display: inline-block;
+}
+
+.toolBar {
+    display: inline-block;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top span {
+    font-size: 40px;
+}
+
+.middleContainer {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.cell {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+}
+
+.cell:hover {
+    cursor: pointer;
+}
+
+.key {
+    display: inline-block;
+    border-radius: 2px;
+    background-color: #EEEEEE;
+    border: 3px solid gray;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    color: #0F044C;
+    font-size: 2rem;
+}
+
+.key:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #787A91;
+}
+
+.action {
+    display: inline-block;
+    border: 3px solid #0F044C;
+    color: #0F044C;
+    margin: 5px;
+    width: 60px;
+}
+
+.action:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #787A91;
+}
+
+.newGame {
+    margin: 10px;
+    border: 3px solid #0F044C;
+    color: #0F044C;
+    width: 212px;
+}
+
+.newGame:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #787A91;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #787A91;
+}
+
+a:hover {
+    color: #0F044C;
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
