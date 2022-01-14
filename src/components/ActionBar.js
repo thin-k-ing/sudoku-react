@@ -1,5 +1,3 @@
-import ActionButton from "./ActionButton";
-
 const ActionBar = ({ giveHint, undo, erase, newGame }) => {
 	return (
 		<div className="actionBar">

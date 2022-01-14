@@ -1,4 +1,3 @@
-import { generate } from "@d-livingston/sudoku";
 import Cell from "./Cell";
 
 const Board = (props) => {
