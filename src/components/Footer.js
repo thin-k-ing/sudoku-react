@@ -4,9 +4,9 @@ const Footer = () => {
 	return (
 		<div className="footer">
 			<span>
-				{new Date().getFullYear()} by
-				<a href="https://thin-k-ing.github.io/dec-resume/#contact">
-					Rishabh Kumar Soni
+				{new Date().getFullYear()}
+				<a href="https://thin-k-ing.github.io/dec-resume/">
+					rishabh soni
 				</a>
 			</span>
 		</div>

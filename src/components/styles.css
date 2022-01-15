@@ -114,3 +114,18 @@ a:hover {
     align-items: center;
     text-align: center;
 }
+
+.stopwatch {
+    margin-top: 10px;
+    color: #0F044C;
+    border: 3px solid #0F044C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.stopwatch:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #787A91;
+}

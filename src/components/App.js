@@ -8,6 +8,7 @@ import Rating from "./Rating";
 import "material-icons/iconfont/material-icons.css";
 import Heading from "./Heading";
 import Footer from "./Footer";
+import Stopwatch from "./Stopwatch";
 
 const { sudoku: initSudoku, solution } = generate({ verbose: true });
 
@@ -137,6 +138,7 @@ function App() {
 						incorrect={incorrect}
 						selected={selected}
 					/>
+					<Stopwatch />
 				</div>
 
 				<div className="toolBar">
