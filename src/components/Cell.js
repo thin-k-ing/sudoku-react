@@ -1,3 +1,5 @@
+import React from "react";
+
 const Cell = ({ r, c, value, fixed, selected, incorrect, cellSelected }) => {
 	const colored = (Math.floor(r / 3) + Math.floor(c / 3)) % 2 === 0;
 	const backgroundColor = colored ? "#EEEEEE" : "white";

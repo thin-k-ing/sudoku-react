@@ -1,3 +1,5 @@
+import React from "react";
+
 const ActionBar = ({ giveHint, undo, erase, newGame }) => {
 	return (
 		<div className="actionBar">
