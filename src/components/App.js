@@ -40,7 +40,7 @@ function App() {
 		JSON.parse(JSON.stringify(initSudoku))
 	);
 
-	const canUndo = () => moves.length;
+	// const canUndo = () => moves.length;
 
 	const undo = () => {
 		// we take the last move from the moves stack
